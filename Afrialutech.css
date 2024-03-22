@@ -1,0 +1,153 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f6f2f2;
+  font-weight: bold;
+}
+
+
+section {
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+  header {
+    background-image: url('afrikid.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    
+}
+
+
+
+#about {
+  background-image: url('africover.png');  
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+
+.qna-item {
+  margin-bottom: 20px;
+}
+
+.qna-question {
+  font-weight: bold;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+}
+
+
+#blog {
+  background-color: #1a0101;
+  padding: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+  margin-bottom: 20px;
+}
+
+.blog-post h3 {
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  /* Add styles for smaller screen sizes */
+  nav ul li {
+      display: block;
+      margin-bottom: 10px;
+  }
+}
+
+
+#about {
+  background-color: #f8f8f8; 
+  padding: 50px; 
+  text-align: center; 
+}
+
+#about h2 {
+  font-size: 32px; 
+  color: #f70c0c; 
+}
+
+#about p {
+  font-size: 18px; 
+  line-height: 1.6; 
+  color: #ed0d0d; 
+  margin-bottom: 20px; 
+}
